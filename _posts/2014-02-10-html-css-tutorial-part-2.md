@@ -8,6 +8,9 @@ categories: html css tutorial
 ###What
 
 This is Part 2 of this tutorial, where we start from the very beginning of HTML and CSS.  You don't need to know anything about HTML and CSS or anything about code to start. 
+
+[You can find Part 1 here.](http://cassidoo.github.io/html/css/tutorial/2014/02/10/html-css-tutorial.html)
+
 I'll included some tutorial files for you to play with and check out here: [HTML+CSS Tutorial Files](https://github.com/cassidoo/HTML-CSS-Tutorial/archive/master.zip)
 
 ###When
@@ -853,16 +856,4 @@ Show off your website to your friends, and be proud of what you've done!
 And with that, I'm signing off.
 
 Thanks for reading, you beautiful specimen, you.
-
-
-
-
-
-
-
-
-
-
-
-
 
