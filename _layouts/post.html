@@ -2,8 +2,22 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="meta">
+	{{ page.date | date_to_string }}
+</p>
 
 <div class="post">
-{{ content }}
+	
+	{% if page.video_url %}
+	<div class="video-header">
+		<iframe
+		class="yt-embed"
+		src="{{ page.video_url }}?&rel=0&showinfo=0&autohide=1&hd=1&wmode=transparent"
+		frameborder="0"
+		allowfullscreen="true"
+		></iframe>
+	</div>
+	{% endif %}
+
+	{{ content }}
 </div>
