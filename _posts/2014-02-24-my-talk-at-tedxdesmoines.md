@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "My Talk at TEDxDesMoines"
-video_url: http://www.youtube.com/watch?v=7O0z06YRKHg
-date:   2013-07-23 06:25:34
+video_url: 7O0z06YRKHg
+date: 2013-07-23 06:25:34
 categories: advice tedx tedxdesmoines speaking inspiration
 ---
 
