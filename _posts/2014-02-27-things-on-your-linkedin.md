@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Things you should have on your LinkedIn profile"
-video_url: 7O0z06YRKHg
 date: 2013-02-27 16:25:34
 categories: advice linkedin
 ---
