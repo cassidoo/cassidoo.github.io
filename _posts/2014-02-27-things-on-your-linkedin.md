@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Things you should have on your LinkedIn profile"
-date: 2013-02-27 16:25:34
+date: 2014-02-27 16:25:34
 categories: advice linkedin
 ---
 

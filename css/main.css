@@ -26,7 +26,7 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-	font-size: 100%;
+	font-size: 2em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 }
@@ -93,6 +93,7 @@ a:visited
 
 .header a
 {
+	font-size: 3em;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -110,7 +111,7 @@ a:visited
 
 .title a:hover
 {
-	color: #000;
+	/*color: #000;*/
 }
 
 .header a.extra
@@ -185,11 +186,13 @@ a:visited
 	border: 1px solid #ddd;
 	background-color: #eef;
 	padding: 0 .2em;
+	overflow-x: scroll;
 }
 
 .post pre code
 {
 	border: none;
+	overflow-x: scroll;
 }
 
 /* terminal */
@@ -203,4 +206,5 @@ a:visited
 .post pre.terminal code
 {
 	background-color: #333;
+	overflow-x: scroll;
 }
