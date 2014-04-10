@@ -1,4 +1,24 @@
-name: Cassidy Williams' Blog
-markdown: redcarpet
-pygments: true
-highlighter: pygments
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Cassidy Williams
+tagline:          A blog about tech and stuff.
+description:      Because I need to write sometimes.
+url:              http://cassidoo.github.io
+
+author:
+  name:           Cassidy Williams
+  url:            https://cassidoo.co
+
+paginate:         1
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://cassidoo.github.io
