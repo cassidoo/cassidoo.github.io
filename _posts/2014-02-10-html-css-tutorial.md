@@ -444,4 +444,4 @@ Using the information I've given you so far, you can make a pretty good looking 
 ##What, why did we stop?
 
 This concludes Part 1 of this tutorial!  You've done such a great job so far.  You're so hot. 
-[You can find Part 2 here.](http://cassidoo.github.io/html/css/tutorial/2014/02/10/html-css-tutorial-part-2.html)  Go get 'em!
+[You can find Part 2 here.](http://cassidoo.github.io/html/css/tutorial/2014/02/10/html-css-tutorial-part-2/)  Go get 'em!
