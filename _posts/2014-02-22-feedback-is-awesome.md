@@ -2,7 +2,7 @@
 layout: post
 title:  "Feedback is awesome"
 date:   2014-02-22 21:25:00
-categories: feedback advice
+categories: feedback advice personal
 ---
 
 Today was a great day full of feedback from people.

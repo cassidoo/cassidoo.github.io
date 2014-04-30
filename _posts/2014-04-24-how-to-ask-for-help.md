@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to ask for help"
-date: 2014-24-16 10:52:34
+date: 2014-04-24 10:52:34
 categories: advice public speaking speeches
 ---
 
