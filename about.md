@@ -3,17 +3,19 @@ layout: page
 title: About
 ---
 
-Hi there! I'm Cassidy Williams, a computer science senior at Iowa State University, graduating in less than a month!
+Hi!  I'm Cassidy, and I'm a software engineer and developer evangelist at Venmo, located in NYC.
 
-I have work experience from various companies, including Intuit, Microsoft, and General Mills. Upon graduation, I'll be working for [Venmo](http://venmo.com) in New York City!
+I love front-end dev, but dabble in back-end sometimes, too.
 
-When I'm not studying or playing with programming languages, I fool around with Photoshop, blog for CycloneLife.com, watch movies, root for the Cyclones, play guitar, eat a lot, practice Spanish (I studied abroad my sophomore year to Spain), and salsa dance. 
+I enjoy public speaking and has done so at events like the Grace Hopper Celebration for Women in Computing, the National Center for Women & IT Summit, the U.S. Department of Labor's Diversity in Tech event, TEDxDesMoines, the United Nations, and the U.S. Science and Engineering Festival.
 
-I also enjoy public speaking, and I have done so at events like the National Center for Women & IT Summit, the U.S. Department of Labor's Diversity in Tech event, and the IINSPIRE (Iowa-Illinois-Nebraska STEM Partnership for Innovation in Research and Education) conference, TEDxDesMoines, and even at the United Nations this past year. 
+I interned throughout my four years at Iowa State University (just graduated this past May!) at a few companies, including Intuit, Microsoft, and General Mills.
 
-You can look at my works on my website, [cassidoo.co](http://cassidoo.co) or on my [Github profile](http://github.com/cassidoo).  I try to code a little everyday, so be sure to keep checking it out!
+When I'm not working, I fool around with Photoshop, watch movies, play guitar, eat a lot, practice Spanish, and salsa dance.
 
-It brings joy to my heart that you've read this far, so here is a joke for you: How do you organize a space party? You planet. 
+You should check out my website, [cassidoo.co](http://cassidoo.co) or my [Github profile](http://github.com/cassidoo).  Or don't.  I'm not your mother.
+
+It brings joy to my heart that you've read this far, so here is a joke for you: How do you organize a space party? You planet.
 
 <p class="message">
   "One can never consent to creep when one feels an impulse to soar." - Helen Keller
