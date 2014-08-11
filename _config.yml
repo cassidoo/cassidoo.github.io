@@ -1,24 +1,12 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Cassidy Williams
+email: cassidoo@gmail.com
+author: Cassidy Williams
+description: "A place for Cassidy to write stuff"
+baseurl: ""
+url: "http://cassidoo.github.io"
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Cassidy Williams
-tagline:          A blog about tech and stuff.
-description:      Because I need to write sometimes.
-url:              http://cassidoo.github.io
-
-author:
-  name:           Cassidy Williams
-  url:            https://cassidoo.co
-
-paginate:         1
-
-# Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/cassidoo/cassidoo.github.io
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3

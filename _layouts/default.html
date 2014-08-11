@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
+{% include head.html %}
+<body>
+  <div class="site-wrap">
+    {% include header.html %}
 
-  {% include head.html %}
-
-  <body class="layout-reverse">
-
-    {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        {{ content }}
+      </div>
     </div>
+  </div>
 
-  </body>
+  {% include footer.html %}
+</body>
 </html>
