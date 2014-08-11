@@ -2,12 +2,13 @@
 layout: post
 title:  "HTML+CSS Tutorial, Part 2"
 date:   2014-02-10 17:55:34
+summary: This is part 2 of a two-part tutorial for beginners as an introduction to HTML and CSS.
 categories: html css tutorial
 ---
 
 ###What
 
-This is Part 2 of this tutorial, where we start from the very beginning of HTML and CSS.  You don't need to know anything about HTML and CSS or anything about code to start. 
+This is Part 2 of this tutorial, where we start from the very beginning of HTML and CSS.  You don't need to know anything about HTML and CSS or anything about code to start.
 
 [You can find Part 1 here.](http://cassidoo.github.io/html/css/tutorial/2014/02/10/html-css-tutorial/)
 
@@ -63,7 +64,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 		* Other Developer Joys
 			* Forms
 			* HTML5 and CSS3
-			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
  * Final Project!
  * And now, the end is near
 
@@ -80,17 +81,17 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 	<style>
 		body
 		{ }
-		
+
 		h1
 		{ }
-		
+
 		p
 		{ }
-		
+
 		ol
 		{ }
 	</style>
-	
+
 Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.  Stylish.  Just like you.
 
 Now, you'll notice some familiar keywords in there, in particular, `body`, `h1`, `p`, and `ol`.  That's right, they're the tags we know and love!  But, in CSS, these are called *selectors*.  The selector tells us what tag you're about to style.  So, whatever code you put in between the curly braces `{}` after the `body` selector will affect everything in the `<body>` tags.  Whatever you put in the braces after the `p` selector will affect what's in the `<p>` tags.
@@ -103,24 +104,24 @@ The code that we're going to be putting in each declaration is the same syntax a
 		{
 			font-family: Arial;
 		}
-		
+
 		h1
 		{
 			color: red;
 			text-align: center;
 		}
-		
+
 		p
 		{
 			font-weight: bolder;
 		}
-		
+
 		img
 		{
 			width: 400px;
 			border: 5px solid #333333;
 		}
-		
+
 		ol
 		{
 			color: #333333;
@@ -148,7 +149,7 @@ How about we style one of the classes specifically?  It's simple.  Just take the
 
 	.poemtitle
 	{
-	
+
 	}
 
 And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  
@@ -171,7 +172,7 @@ Try doing it on your own if you can (just put your code in the given `<style>` t
 	{
 		font-style: italic;
 	}
-	
+
 Gosh you're good at this.  Go eat a cookie.
 
 [Pausing here for cookie break]
@@ -181,14 +182,14 @@ Gosh you're good at this.  Go eat a cookie.
 Now, let's talk about IDs.  They are very similar to classes.  The only real difference between classes and IDs is that you can only have one of each ID.  So, for example, if you have a special paragraph that you only want to style once, then you can stick in there the `id` attribute like so:
 
 	<p id="special">This is so special that I want it uniquely styled forever.</p>
-	
+
 When you want to style your IDs, you put a hashtag `#` before it in your CSS, like so:
-	
+
 	#special
 	{
-	
+
 	}
-	
+
 Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with JavaScript, not styling, but that's something for another day.
 
 ####Other Segregation
@@ -202,11 +203,11 @@ So, let's say you have a paragraph and you really want to emphasize some text wi
 
 	<p>"My grandmother started walking <span>five miles a day</span> when she was sixty. She's ninety-seven now, and <span>we don't know where the heck she is.</span>" </p>
 	<p>~ Ellen DeGeneres </p>
-	
+
 In the above quote, you might want to style the `<span>` tags differently than the rest of the paragraph.  Maybe you want those words bold, or italics, or in red.  Now you can.
 
 Add some `<span>` tags around your favorite lines of the poems in style3.html of the **3 - Styles** folder.  Then, put the following CSS in your `<style>` tags:
-	
+
 	p span
 	{
 		font-style: italic;
@@ -242,7 +243,7 @@ Open up the **5 - Layout** folder, and use your editor to open `homepage.html`.
 		<head>
 			<title> My Website </title>
 			<style>
-				
+
 			</style>
 		</head>
 		<body>
@@ -260,27 +261,27 @@ First, let's throw in what we'll be styling: the `<html>` (it is unusual to styl
 
 	html
 	{
-		
+
 	}
 	body
 	{
-	
+
 	}
 	.header
 	{
-	
+
 	}
 	.menu
 	{
-	
+
 	}
 	.content
 	{
-	
+
 	}
 	.footer
 	{
-	
+
 	}
 
 This should be straightforward for you so far.  The first thing we'll do is create our layout by making each `<div>` a different size.
@@ -323,7 +324,7 @@ When we made the `<body>` tag have `height: 100%`, it also would still be zero, 
 Now, if we had just said `height: 50px;` for `.menu`, we wouldn't need the `height` fixes for `<html>` and `<body>`, because it's given a set value, not a value dependent on others.  
 Makes sense?  I hope so.  You're hot.
 
-Okay, so if you open `homepage.html` in the browser, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
+Okay, so if you open `homepage.html` in the browser, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties!
 
 ######Background color
 
@@ -369,7 +370,7 @@ Let's throw some MORE new CSS properties at you!
 
 ######Floating
 
-One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. 
+One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate.
 It's kind of magical.
 So, let's say that you want to have a picture in a paragraph.  When you see a picture in a news article or even a paper you're writing, the picture is either on the left or the right.  
 It's the same in CSS!  If you wanted to put a picture in a paragraph, you'd make the `<img>` tag inside a `<p>` tag have the properties `float: left;` or `float: right;`.
@@ -382,7 +383,7 @@ An element with `float` affecting it will move as far to the left or right as it
 Usually this means all the way to the left or right of the containing element.
 
 Pretty simple, right?  Right.  Now, here's the cause for hate: sometimes, `float` just doesn't stop.  
-It has the potential to mess up your layouts and have things move around other things, and really just give you a headache. 
+It has the potential to mess up your layouts and have things move around other things, and really just give you a headache.
 How do you stop that?
 
 With the `clear` property!  On the element(s) after any floated elements, make sure that they have `clear: both;` on them (we say `both` because it turns off both `left` and `right` floating).  
@@ -491,7 +492,7 @@ So, let's get rid of our `float` on `.menu` and `.content`, and the `clear` on t
 		height: 60px;
 		width: 100%;
 	}
-	
+
 We are starting to look really hot now.  
 If you refresh your page in the browser though, you'll notice that there's a little space to the left of our header and footer.  
 Why the heck is that happening?
@@ -565,7 +566,7 @@ Let's add some padding into our `.content` and `.header` so that our text has so
 		height: 60px;
 		width: 100%;
 	}
-	
+
 Oh darn!  Did you see how our header expanded?  If you did this right, our header is now starting to overlap the menu and content.  Crap.
 
 There is a way to fix this.
@@ -586,7 +587,7 @@ So, instead of adding space to margins and padding on all four sides, you can ad
      * right and left margins are 10px
  * `margin: 15px;`
      * all four margins are 15px
- 
+
 The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc. for all of the properties above.  We're going to make some changes to both the `.header` and the `.menu` here:
 
 	html
@@ -639,7 +640,7 @@ I'll teach you just one more thing, and then I'll set you free like a bird or so
 
 ######Z-Index
 
-The property `z-index` isn't one that you'll run into super often, but it's something that will help you in the long run. 
+The property `z-index` isn't one that you'll run into super often, but it's something that will help you in the long run.
 
 Now, if you think of your screen as a stack of layers, like a stack of paper on the screen.  
 Layer 1 is the lowest layer, and the higher the number, the higher the layer.
@@ -793,7 +794,7 @@ I didn't teach you these because you can't do things with them unless you know a
 If you're really dying to see a button, here you go:
 
 	<button type="button">Click Me!</button>
-	
+
 And there you have it, a button on your website!  If you actually want to know how to make the button or form do something, you'll need to know some JavaScript.
 Until you do, here's more information on buttons: [W3Schools - HTML Forms](http://www.w3schools.com/tags/tag_form.asp)
 
@@ -802,7 +803,7 @@ Until you do, here's more information on buttons: [W3Schools - HTML Forms](http:
 If you've read anything about the internet and developing for it, you've probably heard some key words thrown around, and a couple of those key words are HTML5 and CSS3.
 What are those, actually?  Well, HTML5 is the latest standard for HTML.  The previous HTML version came out in 1999, which is quite a while ago.  Unless you're time traveling right now and you printed this out to read as you go.
 
-Anyway.  HTML5 was designed to deliver rich content without the need for additional plugins (for example, Shockwave Flash, Silverlight, etc.), and can handle everything from animation to graphics, music to movies, and can also be used to build complex web applications. 
+Anyway.  HTML5 was designed to deliver rich content without the need for additional plugins (for example, Shockwave Flash, Silverlight, etc.), and can handle everything from animation to graphics, music to movies, and can also be used to build complex web applications.
 Not to mention the fact that it works on every device, from tablets to phones to your standard computer.
 
 CSS3 has a bunch of new features too.  From new selectors to fancy text effects to 2D/3D tranformations, there's just so much to learn!
@@ -856,4 +857,3 @@ Show off your website to your friends, and be proud of what you've done!
 And with that, I'm signing off.
 
 Thanks for reading, you beautiful specimen, you.
-

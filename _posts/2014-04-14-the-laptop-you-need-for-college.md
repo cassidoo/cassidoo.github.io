@@ -2,6 +2,7 @@
 layout: post
 title:  "The laptop you need for college"
 date: 2014-04-14 14:25:34
+summary: Too often people go for the biggest and best laptop out there, when there are reasonable, affordable options.  Let's talk about it.
 categories: advice laptop college
 ---
 
@@ -45,9 +46,3 @@ Boom.
 So, there you have it. Now, you might disagree with my laptop opinions here. Again, everyone’s different. But, these guidelines should give you a general idea of what could be best for you. And again, don’t drop too much cash on a computer. Technology is moving fast, and you might end up getting a new one before you even graduate.
 
 ##Good luck!
-
-
-
-
-
-

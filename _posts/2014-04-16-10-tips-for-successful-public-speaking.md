@@ -2,6 +2,7 @@
 layout: post
 title:  "10 Tips for Successful Public Speaking"
 date: 2014-04-16 14:25:34
+summary: Public speaking is the number 1 fear out there.  Let's conquer it together.  Lovingly.
 categories: advice public speaking speeches
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Feedback is awesome"
 date:   2014-02-22 21:25:00
+summary: I love getting feedback from people.  You learn most from it.
 categories: feedback advice personal
 ---
 

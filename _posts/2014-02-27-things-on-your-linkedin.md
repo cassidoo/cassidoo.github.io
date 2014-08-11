@@ -2,6 +2,7 @@
 layout: post
 title:  "Things you should have on your LinkedIn profile"
 date: 2014-02-27 16:25:34
+summary: As much as I'd like to say that your looks will get you far, sometimes actual information is good to know too.
 categories: advice linkedin
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "My last days at ISU"
 date: 2014-04-30 12:14:11
+summary: I'm leaving Iowa State in a few weeks, which is both a bummer and very exciting.
 categories: advice personal feedback
 ---
 

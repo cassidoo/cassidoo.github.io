@@ -2,6 +2,7 @@
 layout: post
 title:  "Crushing the Impostor Syndrome"
 date:   2013-07-23 17:55:34
+summary: Sometimes you don't feel like you're good enough, and that you're fooling everyone.  You're not alone.
 categories: impostor syndrome advice
 ---
 

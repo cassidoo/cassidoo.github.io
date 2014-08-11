@@ -2,6 +2,7 @@
 layout: post
 title:  "My Talk at TEDxDesMoines"
 date: 2014-02-24 06:25:34
+summary: I talked at TEDxDesMoines, come here what I had to say!  If you want to, of course.
 categories: advice tedx tedxdesmoines speaking inspiration
 ---
 
@@ -19,7 +20,7 @@ I hope it gives you some inspiration to go after what you want.
 
 And, you know I like feedback!  I'm so happy about some of the comments and discussions coming out of the video:
 
-> "I particularly enjoyed this presentation.  For some silly reason, many of the Math, Science and Engineering academic folks do not embrace Computer Science as a core element of STEM.   In reality, Computer Science is the cortex of STEM.    This young woman encorages everyone to have a passion, explore, network and have fun!   
+> "I particularly enjoyed this presentation.  For some silly reason, many of the Math, Science and Engineering academic folks do not embrace Computer Science as a core element of STEM.   In reality, Computer Science is the cortex of STEM.    This young woman encorages everyone to have a passion, explore, network and have fun!
 > She is combining her avocation with her vocation!   I applaud her.. clap clap clap﻿."
 > - Arta Szathmary
 

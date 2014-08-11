@@ -2,12 +2,13 @@
 layout: post
 title:  "HTML+CSS Tutorial"
 date:   2014-02-10 17:55:34
+summary: This is part 1 of a two-part tutorial for beginners as an introduction to HTML and CSS.
 categories: html css tutorial
 ---
 
 ###What
 
-In this tutorial, we'll start from the very beginning.  You don't need to know anything about HTML and CSS or anything about code to start. 
+In this tutorial, we'll start from the very beginning.  You don't need to know anything about HTML and CSS or anything about code to start.
 I'll included some tutorial files for you to play with and check out here: [HTML+CSS Tutorial Files](https://github.com/cassidoo/HTML-CSS-Tutorial/archive/master.zip)
 
 ###When
@@ -60,7 +61,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 		* Other Developer Joys
 			* Forms
 			* HTML5 and CSS3
-			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
  * Final Project!
  * And now, the end is near
 
@@ -90,12 +91,12 @@ Here is a barebones HTML page, about as simple as you can get.  You can open it 
 			</title>
 		</head>
 		<body>
-			Hello, World!	
+			Hello, World!
 		</body>
 	</html>
 
 So, what are we looking at here?
-HTML, short for *HyperText Markup Language*, consists of these things called tags, which are words written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`. 
+HTML, short for *HyperText Markup Language*, consists of these things called tags, which are words written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`.
 
 For example, `<html>` is one tag and the closing tag for it is `</html>`, same with `<head>` and `</head>` and `<body>` and `</body>`, and so on.  You get it.
 The opening and closing tags together are an *element* (which also includes everything written in it).  For example, `<title>My Website</title>` is one element.  The text inside an element, in the title case, `My Website`, is called the *content* of an element.
@@ -113,7 +114,7 @@ Let's take a look again at part1.html in the **1 - Structure** folder.  You'll n
 
 On the second line, you can see a `<html>` tag.  Everything in the website is contained by this tag, and the last line of your entire document will always be `</html>`.
 
-Inside `<html>`, there are two elements: `<head>`and `<body>`. Contained in `<head></head>`, we will put all kinds of information for the browser that the user doesn't necessarily need to see.  For now, we just have `<title>`. The content of `<title>` will be used for the name of the tab of the browser, and also by search engines. 
+Inside `<html>`, there are two elements: `<head>`and `<body>`. Contained in `<head></head>`, we will put all kinds of information for the browser that the user doesn't necessarily need to see.  For now, we just have `<title>`. The content of `<title>` will be used for the name of the tab of the browser, and also by search engines.
 
 On the other side of the planet, we have `<body></body>`.  Everything visible to the user is contained in these tags.  Right now, all that consists of is "Hello, World!"  Let's change that for fun.  Replace "Hello, World!" with your own text in your favorite HTML editor, and then open the page in your browser.  Neat!
 
@@ -121,7 +122,7 @@ On the other side of the planet, we have `<body></body>`.  Everything visible to
 
 Let's get juicy.  We're going to talk about some new tags for structuring your text.  Because you're not going to want just one style of text throughout your whole website, right?
 
-Check out part2.html in the **1 - Structure** folder.  The tags that we'll be talking about here are `<h1>`, `<p>`, `<ul>`, and `<li>`.  Open the file in the browser to try and understand what the heck is going on. 
+Check out part2.html in the **1 - Structure** folder.  The tags that we'll be talking about here are `<h1>`, `<p>`, `<ul>`, and `<li>`.  Open the file in the browser to try and understand what the heck is going on.
 
 Now, let's talk about it.
 
@@ -140,7 +141,7 @@ Links are made with the `<a>` tag, which stands for *anchor*.
 Open up the **2 - Tags** folder, and add this piece of code right after your heading in page1.html:
 
 	<p>This paragraph <a href="http://www.lalalalalalalalalalalalalalalalalala.com/">has a totally awesome link.</a></p>
-	
+
 Open page1.html in a browser and click on it!  BEAUTIFUL.
 
 Okay, so let's take a look at this.  First of all, you can see the `<a>` tag there contained in the paragraph.  Beautiful.
@@ -164,7 +165,7 @@ This is okay.  BUT, you can do better.  So, what if you change your domain name 
 When you make a link to a page within your own directory or folder on your website, instead of putting in the whole URL, put in something more like this:
 
 	<a href="page2.html">Click here to go back to Page 2.</a>
-	
+
 Paste this line of code into page1.html.  Watch the magic happen.
 
 Now, if you were to change your domain or location of your files, you don't have to change a thing.  Boo yah.
@@ -178,7 +179,7 @@ So, you can reference the links that I showed you before if you want to check ou
 Add the following to page1.html:
 
 	<img src="http://i.imgur.com/B9q0A.gif" />
-	
+
 Open up the page in a browser.  WHOA.  Image!  So, the `<img>` tag is one of those special tags.  First of all, it doesn't have a closing tag.  You just stick in a `/` at the end of the one tag and you're done.  Secondly, it also has a `src` attribute (which is short for *source*), and in the value of that attribute you put the URL of the image (similar to `href` in the anchor tag).
 
 One attribute that might be good for you to remember for `<img>` tags is the `alt` attribute.  If you changed the code above to:
@@ -207,12 +208,12 @@ There's several tags for tables, but the essential ones are `<table>`, `<tr>`, `
 We're going to make our own table again on this page.  You can delete the one I made for you, or just make one underneath the current one there.
 
 So, to create a table, you start with the `<table>` tag.  Simple enough.
-	
+
 This will contain all the parts of your table.  Sometimes, tables have a `border` attribute that will equal some value for the thickness of the table's border (it's proper to have just "1" or nothing, for reasons we'll explain later).  Go ahead and add one so it looks like this:
 
 	<table border="1">
 	</table>
-	
+
 Boom.  Let's add some more.
 
 The next tag we're gonna check out is `<tr>`, which is for a *table row*.  Easy peasy.  So, let's add 3 `<tr>` tags to our table.
@@ -225,7 +226,7 @@ The next tag we're gonna check out is `<tr>`, which is for a *table row*.  Easy 
 		<tr>
 		</tr>
 	</table>
-	
+
 And finally, we have the actual cells of the table.  There are two types of tags for this, `<th>` (*table header*) and `<td>` (*table data*).  As their names indicate, the former is for the header of the table and the latter is for all of the data in the table.
 
 In our first set of `<tr>` tags, add 4 `<th>` tags, and in the second and third `<tr>` tags add 4 `<td>` tags.
@@ -250,7 +251,7 @@ In our first set of `<tr>` tags, add 4 `<th>` tags, and in the second and third 
 			<td></td>
 		</tr>
 	</table>
-	
+
 Alright!  Our table is all set up.  We have a table with a `border=1` attribute, 3 rows, and 4 columns.  Let's populate it with data so you can see a proper application of the `<table>` tag:
 
 	<table border="1">
@@ -273,7 +274,7 @@ Alright!  Our table is all set up.  We have a table with a `border=1` attribute,
 			<td>$6.00</td>
 		</tr>
 	</table>
-	
+
 Open the page in a browser and check out your work.  Nice job!  I'm truly impressed.  Go eat something good and fattening.
 
 One other fun thing you can try playing with are the `colspan` and `rowspan` attributes.  If you add `colspan="2"` (or `rowspan`, or any other number) into a `<th>` or `<td>` tag, the cell will expand past their cell size.  For example, `<th colspan="2">` will give you a table header that spans 2 columns, and `<td rowspan="3">` will yield a cell that is the height of 3 rows.  Jazzy!
@@ -322,11 +323,11 @@ There are two options you can use, the `style` attribute and the `width` and `he
 Take this block of code here and stick it into style1.html:
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" />
-	
+
 Now, let's just say you want the image to be an exact size, say, 600x800.  All you need to do is add `width` and `height` attributes to do just that!
-	
+
 	<img src="http://i.imgur.com/wjiVXJe.gif" width="600" height="800" />
-	
+
 Load that baby in a browser.  Boo yah.  But, you'll notice that the proportions of the image are a little off.  What a pain.  That's actually pretty easy to fix.  Let's say that you absolutely have to have the width at 600 pixels, but the height can slide.  It's as easy as taking out the `height` attribute.
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" width="600" />
@@ -343,7 +344,7 @@ Now, the syntax within a `style` attribute is a little funky.  It is always `sty
 If you have more than one property that you want to style, for example both height and width, you put a semicolon between delarations.  So, in our example, if you want to edit both height and width of our image in the `style` attribute, we'd do:
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="width: 600px; height: 800px" />
-	
+
 Why is the syntax this funky?  Well, that's because it's secretly CSS syntax.  But we'll get into that more later.
 
 ####Borders
@@ -372,10 +373,10 @@ Let's mix it up a bit with different borders for you to check out.  I'm just goi
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:5px dotted #ffcc00" />
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:10px ridge rgb(77, 145, 99); width: 300px" />
-	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:8px outset red" />	
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:8px outset red" />
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:3px double #333a21; height: 30px" />
-			
-			
+
+
 Notice how I added `width` and `height` to a couple of them.  We're getting incestuous with our stylings.  Aww yeah.
 
 ####Text Styles
@@ -383,16 +384,16 @@ Notice how I added `width` and `height` to a couple of them.  We're getting ince
 Besides having header tags and colors, there are other text styles that you can use.  What if you want bold text, or italics?  Different sizes?  Once again, the `style` attribute comes to the rescue.
 
 Add the following to style1.html in **3 - Styles**:
-	
+
 	<p style="text-align: center; font-weight: bold">This text is magnificent.</p>
 
 Load that in a browser and check it out.  YUS.  You've got some magically centered, bolded text!  The properties defined here are pretty simple to follow.  `text-align` lets you align your text either `center`, `left`, or `right`.  Mess around with that so you get it.
 `font-weight`, you guessed it, edits the weight in your text.  It can have the values `normal` for normally weighted text, `bold` for thick characters, `bolder` for thicker characters (specific, right?), `lighter` for lighter-weighted characters, and the numbers `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, and `900` (where 400 is the same as normal and 700 is the same as bold).
 
 Play with this one now:
-	
+
 	<p style="font-family: Arial; font-style: italic">This text is magnificent.</p>
-	
+
 Browser time.  You've now got some text in the font Arial, and it's italic!  WOOO HOOOOOO.  
 The properties we used here are `font-family` and `font-style`.  For the former, you can choose a lot of fonts, but you have to be careful.  Not every computer has the same fonts.  This is just my personal opinion: don't put something here besides Arial unless you've done some JavaScript magic.  And because I'm assuming you don't know JavaScript, don't use this unless you're changing this to Arial.  At least not yet. :)
 And for `font-style`, it can be `normal`, `oblique`, and `italic`.  You can play with those now, it's pretty straightforward.
@@ -414,9 +415,9 @@ Open up the **4 - Head** (heh get it?  Forehead?  I crack myself up.) folder, an
  * *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
 
 `<meta name="keywords" content="cooking, cook, recipe, food, microwave">`
-	
+
 Simple enough.  Now, when people search using the terms cooking, cook, recipe, food, and microwave, your website is pushed up in the results.  Nice!
-	
+
  * *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
 
 `<meta name="description" content="The best cooking website in the entire universe.  You're welcome.">`
@@ -426,13 +427,13 @@ Add this right after the keywords line in cooking.html.  Now if people were sear
  * *Defining the author of a website.*  Let's say that someone's looking for the author of your website, because your writing style is sexy.  Or something.  You can let them know who you are with the following:
 
 `<meta name="author" content="Sexy McGoodlooking">`
-	
+
 Add this after your description line, and stick your name in it!  I think I got it as close as possible.
 
  * *Refreshing your document every 30 seconds.* This one is for your browser.  Let's say that you have comments available on your recipes, and you want to have the page refresh so the comments can appear "live".  Just add this:
 
 `<meta http-equiv="refresh" content="30">`
-	
+
 And there you have it, a self-refreshing webpage.  You're so good at this.
 
 ###Putting it all together so far
@@ -443,5 +444,5 @@ Using the information I've given you so far, you can make a pretty good looking 
 
 ##What, why did we stop?
 
-This concludes Part 1 of this tutorial!  You've done such a great job so far.  You're so hot. 
+This concludes Part 1 of this tutorial!  You've done such a great job so far.  You're so hot.
 [You can find Part 2 here.](http://cassidoo.github.io/html/css/tutorial/2014/02/10/html-css-tutorial-part-2/)  Go get 'em!

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Hi!  I'm Cassidy, and I'm a software engineer and developer evangelist at Venmo, located in NYC.
@@ -17,6 +18,5 @@ You should check out my website, [cassidoo.co](http://cassidoo.co) or my [Github
 
 It brings joy to my heart that you've read this far, so here is a joke for you: How do you organize a space party? You planet.
 
-<p class="message">
-  "One can never consent to creep when one feels an impulse to soar." - Helen Keller
-</p>
+
+>  "One can never consent to creep when one feels an impulse to soar." - Helen Keller
