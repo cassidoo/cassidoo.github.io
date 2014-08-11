@@ -45,7 +45,7 @@ The room got crowded fast.  This hackathon was geared towards anyone 18 or older
 
 ![pic](/assets/bh/crowd.jpg)
 
-And of course, we had to talk about the prizes.  Throughout the event their would be smaller prizes for Best Progress and for Best Tweet, but the big prizes for hacks consisted of PS4s, cameras, and a chance to win $100,000 after being flown out to California on PayPal/Braintree's dime.
+And of course, we had to talk about the prizes.  Throughout the event there would be smaller prizes for Best Progress and for Best Tweet, but the big prizes for hacks consisted of PS4s, cameras, and a chance to win $100,000 after being flown out to California on PayPal/Braintree's dime.
 
 ![pic](/assets/bh/prizes.jpg)
 
