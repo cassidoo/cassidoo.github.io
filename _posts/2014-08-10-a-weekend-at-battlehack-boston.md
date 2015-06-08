@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Weekend at BattleHack Boston"
+title: "A Weekend at BattleHack Boston"
 date: 2014-08-10 16:18:11
 summary: I had my first hackathon experience as a Venmo employee this past weekend, and boy was it fun!
 categories: speaking hackathons events
