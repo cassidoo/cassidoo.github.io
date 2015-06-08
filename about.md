@@ -10,7 +10,7 @@ I love front-end dev, but dabble in back-end sometimes, too.
 
 I enjoy public speaking and has done so at events like the Grace Hopper Celebration for Women in Computing, the National Center for Women & IT Summit, the U.S. Department of Labor's Diversity in Tech event, TEDxDesMoines, the United Nations, and the U.S. Science and Engineering Festival.
 
-I interned throughout my four years at Iowa State University (just graduated this past May!) at a few companies, including Intuit, Microsoft, and General Mills.
+I interned throughout my four years at Iowa State University at a few companies, including Intuit, Microsoft, and General Mills.
 
 When I'm not working, I fool around with Photoshop, watch movies, play guitar, eat a lot, practice Spanish, and salsa dance.
 
