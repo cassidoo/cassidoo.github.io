@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The CSS Image Values Spec"
-date: 2015-06-17 12:44:00
+date: 2015-06-07 12:44:00
 summary: The CSS Image Values Spec allows you to cleanly blow up pixel art on the web.
 categories: css technical
 ---
