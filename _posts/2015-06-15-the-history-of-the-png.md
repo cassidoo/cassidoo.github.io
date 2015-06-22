@@ -2,7 +2,7 @@
 layout: post
 title: "A Brief History of the PNG"
 date: 2015-06-15 03:14:00
-summary: The PNG file format has been around forever... sort of.Not really.
+summary: The PNG file format has been around forever... sort of. Not really.
 categories: technical history
 ---
 
