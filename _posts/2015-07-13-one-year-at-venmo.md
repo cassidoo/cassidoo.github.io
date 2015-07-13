@@ -18,7 +18,7 @@ And then, in November, something just clicked.  I worked at a hackathon and had 
 
 > I have a sudden motivation to really stand out and be a leader at Venmo.
 
-Almost all of my posts after this one about work are so positive!  I didn't realize there was a shift then, but now I can see it over time.  Ever since this post, I've been loving my work more and more.  I'm getting to work on some cool projects, some truly wonderful people, and I feel like the company is doing really well.
+Almost all of my posts after this one about work are so positive!  I didn't realize there was a shift then, but now I can see it over time.  Ever since this post, I've been loving my work more and more.  I'm getting to work on some cool projects, with some truly wonderful people, and I feel like the company is doing really well.
 
 I love working at Venmo.  I'm looking forward to helping the team grow and thrive, and I can't wait until the day Venmo can be used for any payment in the world.
 
