@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi!  I'm Cassidy, and I'm a software engineer and developer evangelist at Venmo, located in NYC.
+Hi!  I'm Cassidy, and I'm a software engineer and developer evangelist at Clarifai, located in NYC.
 
 I love front-end dev, but dabble in back-end sometimes, too.
 
