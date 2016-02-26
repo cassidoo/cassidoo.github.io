@@ -60,6 +60,7 @@ function iterate() {
 ```
 
 So to run that function, you'd run the following lines and get the shown output:
+
 ```js
 > var x = iterate();
 > x();
@@ -69,6 +70,7 @@ So to run that function, you'd run the following lines and get the shown output:
 > x();
 3
 ```
+
 ...and so forth.  It looks a little funny, but it's because `iterate()` has
 become a closure.  It consists of the local variable `count`, and the returned
 function.
