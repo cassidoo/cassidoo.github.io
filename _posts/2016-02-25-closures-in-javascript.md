@@ -73,3 +73,8 @@ So to run that function, you'd run the following lines and get the shown output:
 become a closure.  It consists of the local variable `count`, and the returned
 function.
 
+You'll see a lot of closures if you do functional programming in JavaScript (and
+along the same lines, currying), and also a lot in event handlers, in callbacks,
+and also just when you're coding or reading code in JS that involve data
+privacy.  Definitely try messing with them if you haven't yet.  It'll be super
+helpful for you in the long run.
