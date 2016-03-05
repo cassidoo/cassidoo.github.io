@@ -63,7 +63,7 @@ animations last the same amount of time and goes in one direction
 that the quotes can be spread out (the first one "exiting" at 20%, the next at
 around 40%, etc).
 
-##But alas, what now?
+## But alas, what now?
 
 Honestly, this works for what my original needs were.  But, this mini-project
 could DEFINITELY be improved.  Some of my ideas for a next time:
