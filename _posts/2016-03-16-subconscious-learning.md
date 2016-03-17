@@ -30,3 +30,8 @@ which are released in response to stress. The switches are controlled by the
 responsible for both memory and emotional reactions. There's a really
 interesting study by Schwabe, Tegenthoff, and Hoffken that talks about this. You
 can read it [here](http://www.biologicalpsychiatryjournal.com/article/S0006-3223(13)00513-1/abstract).
+So, it turns out that when I said that I "operate well under stress" in college,
+I wasn't actually making that up!
+
+There's probably a lot more to learn about subconscious learning. Please feel
+free to send me anything you've found on the subject!
