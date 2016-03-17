@@ -3,7 +3,7 @@ layout: post
 title: "Messing with Sketch Club"
 date: 2016-02-22 12:44:00
 summary: I got the app Sketch Club and have really enjoyed making some fun drawings!
-categories: doodles
+categories: doodles learning
 ---
 
 So a little while back I got the app [Sketch Club](http://app.sketchclub.com/), but I never really did anything with it besides using it to annotate photos.
