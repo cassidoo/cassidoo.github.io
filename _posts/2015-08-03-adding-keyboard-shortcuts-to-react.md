@@ -19,10 +19,9 @@ call:
 Dang.  That was so easy.  This is crazy.
 
 Now that you've done that, go ahead and build your React app as usual.  Now,
-let's say that you have a super awesome component (called
-<SuperAwesomeComponent>), and you want to call a function `letFishFly` in that
-component's class whenever someone hits "* k", "ctrl+r", or the Konami Code.
-Because you feel like it.
+let's say that you have a super awesome component (called <SuperAwesomeComponent>),
+and you want to call a function `letFishFly` in that component's class whenever
+someone hits "* k", "ctrl+r", or the Konami Code. Because you feel like it.
 
 It's so easy to add now!  In your component, you just have to bind the Mousetrap
 command to `letFishFly` in the `componentWillMount` function, and unbind it in `componentWillUnmount`.
